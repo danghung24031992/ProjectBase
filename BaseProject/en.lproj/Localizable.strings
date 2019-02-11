@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  ChatRealtime
+
+  Created by Dang Hung on 10/29/18.
+  Copyright © 2018 Dang Hung. All rights reserved.
+*/
+
+"Welcome" = "Welcome";
+"Login" = "Login";
+"Sign up a new account" = "Sign up a new account";
+"Back" = "Back";
