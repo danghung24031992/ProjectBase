@@ -28,6 +28,18 @@ target 'BaseProject' do
   pod 'Hero'
   pod 'Fabric'
   pod 'Crashlytics'
+  pod 'Cache','~> 5.2.0'
+  pod 'Gradients'
+#  pod 'ObjectMapper', '~> 3.4'
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'SwiftyUserDefaults', '4.0.0-alpha.1'
+  pod 'DeviceKit', '~> 1.3'
+  pod 'SwiftTheme'
+  pod 'RAMAnimatedTabBarController'
+  pod 'lottie-ios'
+  pod 'AloeStackView'
+  pod 'MagazineLayout'
+  pod 'RAMAnimatedTabBarController'
 
   target 'BaseProjectTests' do
     inherit! :search_paths
