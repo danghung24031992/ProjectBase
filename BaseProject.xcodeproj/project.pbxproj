@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04C955F5E962480E32041943 /* Pods_BaseProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E84FA28B96F613383AF094 /* Pods_BaseProjectTests.framework */; };
 		39C87D78EA214337265BC414 /* Pods_BaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD675143D66AA3371B8EAA /* Pods_BaseProject.framework */; };
+		643991AA2213AAA700AFA83A /* MJMaterialSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643991A92213AAA700AFA83A /* MJMaterialSwitch.swift */; };
 		6454619A22105FEC005ECA1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454619922105FEC005ECA1F /* AppDelegate.swift */; };
 		645461A122105FED005ECA1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645461A022105FED005ECA1F /* Assets.xcassets */; };
 		645461A422105FED005ECA1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645461A222105FED005ECA1F /* LaunchScreen.storyboard */; };
@@ -52,6 +53,18 @@
 		6454622B22106F91005ECA1F /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6454622522106F91005ECA1F /* AccountViewController.xib */; };
 		647A1B5C22112BF60086C5C7 /* debounce+throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647A1B5B22112BF60086C5C7 /* debounce+throttle.swift */; };
 		647A1BAE22113A1B0086C5C7 /* NibDesignable.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 647A1BAD22113A1B0086C5C7 /* NibDesignable.swift .swift */; };
+		64CE23942214714500C4448B /* PullToRefreshOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CE23902214714500C4448B /* PullToRefreshOption.swift */; };
+		64CE23952214714500C4448B /* UIScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CE23912214714500C4448B /* UIScrollViewExtension.swift */; };
+		64CE23962214714500C4448B /* pulltorefresharrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE23922214714500C4448B /* pulltorefresharrow.png */; };
+		64CE23972214714500C4448B /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CE23932214714500C4448B /* PullToRefreshView.swift */; };
+		64CE23A32214789500C4448B /* ESTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CE23992214789500C4448B /* ESTabBarItem.swift */; };
+		64CE23A42214789500C4448B /* ESTabBarItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CE239A2214789500C4448B /* ESTabBarItemContainer.swift */; };
+		64CE23A52214789500C4448B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64CE239C2214789500C4448B /* Localizable.strings */; };
+		64CE23A62214789500C4448B /* ESTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CE239E2214789500C4448B /* ESTabBarItemContentView.swift */; };
+		64CE23A72214789500C4448B /* ESTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CE239F2214789500C4448B /* ESTabBarItemMoreContentView.swift */; };
+		64CE23A82214789500C4448B /* ESTabBarItemBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CE23A02214789500C4448B /* ESTabBarItemBadgeView.swift */; };
+		64CE23A92214789500C4448B /* ESTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CE23A12214789500C4448B /* ESTabBarController.swift */; };
+		64CE23AA2214789500C4448B /* ESTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CE23A22214789500C4448B /* ESTabBar.swift */; };
 		8DFB0E8D8E514FC98CF20589 /* Pods_BaseProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21C5091E2F8D244733FB0E3 /* Pods_BaseProjectUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +90,7 @@
 		3BB0B2282D59D934D3A9264E /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		42E84FA28B96F613383AF094 /* Pods_BaseProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62ACF856F392D22DD7A3E3E2 /* Pods-BaseProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-BaseProjectUITests/Pods-BaseProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		643991A92213AAA700AFA83A /* MJMaterialSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJMaterialSwitch.swift; sourceTree = "<group>"; };
 		6454619622105FEC005ECA1F /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6454619922105FEC005ECA1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		645461A022105FED005ECA1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -129,6 +143,18 @@
 		64546234221075D9005ECA1F /* vi */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = vi; path = vi.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		647A1B5B22112BF60086C5C7 /* debounce+throttle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "debounce+throttle.swift"; sourceTree = "<group>"; };
 		647A1BAD22113A1B0086C5C7 /* NibDesignable.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NibDesignable.swift .swift"; sourceTree = "<group>"; };
+		64CE23902214714500C4448B /* PullToRefreshOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshOption.swift; sourceTree = "<group>"; };
+		64CE23912214714500C4448B /* UIScrollViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewExtension.swift; sourceTree = "<group>"; };
+		64CE23922214714500C4448B /* pulltorefresharrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pulltorefresharrow.png; sourceTree = "<group>"; };
+		64CE23932214714500C4448B /* PullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshView.swift; sourceTree = "<group>"; };
+		64CE23992214789500C4448B /* ESTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItem.swift; sourceTree = "<group>"; };
+		64CE239A2214789500C4448B /* ESTabBarItemContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContainer.swift; sourceTree = "<group>"; };
+		64CE239D2214789500C4448B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		64CE239E2214789500C4448B /* ESTabBarItemContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContentView.swift; sourceTree = "<group>"; };
+		64CE239F2214789500C4448B /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
+		64CE23A02214789500C4448B /* ESTabBarItemBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemBadgeView.swift; sourceTree = "<group>"; };
+		64CE23A12214789500C4448B /* ESTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarController.swift; sourceTree = "<group>"; };
+		64CE23A22214789500C4448B /* ESTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBar.swift; sourceTree = "<group>"; };
 		B21C5091E2F8D244733FB0E3 /* Pods_BaseProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFD675143D66AA3371B8EAA /* Pods_BaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBB5F4BDA4701A402D6E19C /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +200,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		643991A72213AA8600AFA83A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				64CE23982214785F00C4448B /* ESTabBarController */,
+				64CE238F2214712800C4448B /* PullToRefreshSwift */,
+				643991A82213AA9700AFA83A /* MJMaterialSwitch */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		643991A82213AA9700AFA83A /* MJMaterialSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				643991A92213AAA700AFA83A /* MJMaterialSwitch.swift */,
+			);
+			path = MJMaterialSwitch;
+			sourceTree = "<group>";
+		};
 		6454618D22105FEC005ECA1F = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +243,7 @@
 		6454619822105FEC005ECA1F /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				643991A72213AA8600AFA83A /* Libraries */,
 				645461C7221060A7005ECA1F /* Base */,
 				645461D02210610F005ECA1F /* common */,
 				645461DA2210610F005ECA1F /* Services */,
@@ -391,6 +436,40 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		64CE238F2214712800C4448B /* PullToRefreshSwift */ = {
+			isa = PBXGroup;
+			children = (
+				64CE23922214714500C4448B /* pulltorefresharrow.png */,
+				64CE23902214714500C4448B /* PullToRefreshOption.swift */,
+				64CE23932214714500C4448B /* PullToRefreshView.swift */,
+				64CE23912214714500C4448B /* UIScrollViewExtension.swift */,
+			);
+			path = PullToRefreshSwift;
+			sourceTree = "<group>";
+		};
+		64CE23982214785F00C4448B /* ESTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				64CE239B2214789500C4448B /* en.lproj */,
+				64CE23A22214789500C4448B /* ESTabBar.swift */,
+				64CE23A12214789500C4448B /* ESTabBarController.swift */,
+				64CE23992214789500C4448B /* ESTabBarItem.swift */,
+				64CE23A02214789500C4448B /* ESTabBarItemBadgeView.swift */,
+				64CE239A2214789500C4448B /* ESTabBarItemContainer.swift */,
+				64CE239E2214789500C4448B /* ESTabBarItemContentView.swift */,
+				64CE239F2214789500C4448B /* ESTabBarItemMoreContentView.swift */,
+			);
+			path = ESTabBarController;
+			sourceTree = "<group>";
+		};
+		64CE239B2214789500C4448B /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				64CE239C2214789500C4448B /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
 		DA799211FEA5092099E9743C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -518,6 +597,8 @@
 				6454620C2210610F005ECA1F /* SignInViewController.xib in Resources */,
 				6454622B22106F91005ECA1F /* AccountViewController.xib in Resources */,
 				645461A422105FED005ECA1F /* LaunchScreen.storyboard in Resources */,
+				64CE23962214714500C4448B /* pulltorefresharrow.png in Resources */,
+				64CE23A52214789500C4448B /* Localizable.strings in Resources */,
 				645461A122105FED005ECA1F /* Assets.xcassets in Resources */,
 				645462182210659A005ECA1F /* Localizable.strings in Resources */,
 				645462122210610F005ECA1F /* AuthenticatorViewController.xib in Resources */,
@@ -573,16 +654,32 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BaseProject/Pods-BaseProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ActiveLabel/ActiveLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AloeStackView/AloeStackView.framework",
+				"${BUILT_PRODUCTS_DIR}/ApplyStyleKit/ApplyStyleKit.framework",
 				"${BUILT_PRODUCTS_DIR}/AsyncSwift/Async.framework",
+				"${BUILT_PRODUCTS_DIR}/BouncyLayout/BouncyLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/BubbleTransition/BubbleTransition.framework",
 				"${BUILT_PRODUCTS_DIR}/CHIPageControl/CHIPageControl.framework",
 				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/Closures/Closures.framework",
+				"${BUILT_PRODUCTS_DIR}/DGElasticPullToRefresh/DGElasticPullToRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/DeepDiff/DeepDiff.framework",
+				"${BUILT_PRODUCTS_DIR}/Delegated/Delegated.framework",
 				"${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Dollar/Dollar.framework",
+				"${BUILT_PRODUCTS_DIR}/EZSwiftExtensions/EZSwiftExtensions.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
 				"${BUILT_PRODUCTS_DIR}/Gradients/Gradients.framework",
+				"${BUILT_PRODUCTS_DIR}/HGPlaceholders/HGPlaceholders.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/Highlighter/Highlighter.framework",
 				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/InputMask/InputMask.framework",
+				"${BUILT_PRODUCTS_DIR}/Instructions/Instructions.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
 				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
@@ -591,12 +688,16 @@
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya-ModelMapper/Moya_ModelMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/Panels/Panels.framework",
 				"${BUILT_PRODUCTS_DIR}/Permission/Permission.framework",
+				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
 				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Siren/Siren.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
@@ -605,26 +706,47 @@
 				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework",
 				"${BUILT_PRODUCTS_DIR}/UIFontComplete/UIFontComplete.framework",
+				"${BUILT_PRODUCTS_DIR}/Validator/Validator.framework",
 				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
 				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
 				"${BUILT_PRODUCTS_DIR}/YogaKit/YogaKit.framework",
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActiveLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AloeStackView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ApplyStyleKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Async.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BouncyLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BubbleTransition.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHIPageControl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Closures.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DGElasticPullToRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeepDiff.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Delegated.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dollar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZSwiftExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gradients.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HGPlaceholders.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Highlighter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InputMask.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Instructions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
@@ -633,12 +755,16 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ModelMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Panels.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Permission.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Siren.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
@@ -647,11 +773,16 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TransitionButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIFontComplete.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Validator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YogaKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -755,32 +886,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				645461FB2210610F005ECA1F /* UIButton+Closure.swift in Sources */,
+				64CE23A32214789500C4448B /* ESTabBarItem.swift in Sources */,
 				645462132210610F005ECA1F /* AuthenticatorRouter.swift in Sources */,
 				645461FA2210610F005ECA1F /* UIColor+Hex.swift in Sources */,
+				64CE23A42214789500C4448B /* ESTabBarItemContainer.swift in Sources */,
 				645461FC2210610F005ECA1F /* CustomFont.swift in Sources */,
 				6454621522106125005ECA1F /* BaseViewController.swift in Sources */,
+				64CE23A92214789500C4448B /* ESTabBarController.swift in Sources */,
 				6454621F22106A52005ECA1F /* Helper.swift in Sources */,
 				645461FE2210610F005ECA1F /* NetworkManager.swift in Sources */,
 				6454619A22105FEC005ECA1F /* AppDelegate.swift in Sources */,
 				6454620B2210610F005ECA1F /* SignInRouter.swift in Sources */,
+				64CE23A82214789500C4448B /* ESTabBarItemBadgeView.swift in Sources */,
+				643991AA2213AAA700AFA83A /* MJMaterialSwitch.swift in Sources */,
 				645462052210610F005ECA1F /* RegisterInteractor.swift in Sources */,
 				645461F92210610F005ECA1F /* Config.swift in Sources */,
+				64CE23942214714500C4448B /* PullToRefreshOption.swift in Sources */,
 				645462082210610F005ECA1F /* SignInPresenter.swift in Sources */,
 				645462102210610F005ECA1F /* AuthenticatorViewController.swift in Sources */,
 				645462022210610F005ECA1F /* RegisterPresenter.swift in Sources */,
+				64CE23A62214789500C4448B /* ESTabBarItemContentView.swift in Sources */,
 				6454622622106F91005ECA1F /* AccountPresenter.swift in Sources */,
 				647A1BAE22113A1B0086C5C7 /* NibDesignable.swift .swift in Sources */,
 				645462112210610F005ECA1F /* AuthenticatorProtocols.swift in Sources */,
 				645461FF2210610F005ECA1F /* API.swift in Sources */,
 				645462092210610F005ECA1F /* SignInProtocols.swift in Sources */,
 				645462002210610F005ECA1F /* Networkable.swift in Sources */,
+				64CE23972214714500C4448B /* PullToRefreshView.swift in Sources */,
+				64CE23A72214789500C4448B /* ESTabBarItemMoreContentView.swift in Sources */,
 				6454620D2210610F005ECA1F /* SignInViewController.swift in Sources */,
 				645462072210610F005ECA1F /* RegisterViewController.swift in Sources */,
 				645461FD2210610F005ECA1F /* NavView.swift in Sources */,
 				645462032210610F005ECA1F /* RegisterRouter.swift in Sources */,
+				64CE23952214714500C4448B /* UIScrollViewExtension.swift in Sources */,
 				6454620E2210610F005ECA1F /* AuthenticatorInteractor.swift in Sources */,
 				645462042210610F005ECA1F /* RegisterProtocols.swift in Sources */,
 				6454620A2210610F005ECA1F /* SignInInteractor.swift in Sources */,
+				64CE23AA2214789500C4448B /* ESTabBar.swift in Sources */,
 				6454622A22106F91005ECA1F /* AccountInteractor.swift in Sources */,
 				647A1B5C22112BF60086C5C7 /* debounce+throttle.swift in Sources */,
 				6454622822106F91005ECA1F /* AccountViewController.swift in Sources */,
@@ -838,6 +980,14 @@
 			children = (
 				645462192210659A005ECA1F /* en */,
 				6454621B221065D6005ECA1F /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		64CE239C2214789500C4448B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CE239D2214789500C4448B /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

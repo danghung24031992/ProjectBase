@@ -40,6 +40,34 @@ target 'BaseProject' do
   pod 'AloeStackView'
   pod 'MagazineLayout'
   pod 'RAMAnimatedTabBarController'
+  pod 'TransitionButton'
+  pod 'JTAppleCalendar', '~> 7.0'
+  pod 'ActiveLabel'
+  pod 'XLPagerTabStrip', '~> 8.1'
+  pod 'Panels'
+  pod 'SideMenu'
+  pod 'BubbleTransition', '~> 3.0.0'
+  pod 'BouncyLayout'
+  pod 'FSPagerView'
+  pod 'DGElasticPullToRefresh', :git => 'https://github.com/KennethTsang/DGElasticPullToRefresh.git'
+  pod 'HGPlaceholders',:git => 'https://github.com/HamzaGhazouani/HGPlaceholders.git'
+  pod 'SwipeCellKit'
+  pod 'paper-onboarding'
+  pod 'Instructions', '~> 1.2.2'
+
+  pod 'Closures'
+  pod 'DeepDiff'
+  pod 'Delegated', '~> 0.1.0'
+  pod 'Dollar'
+  pod 'EZSwiftExtensions' , :git => 'https://github.com/goktugyil/EZSwiftExtensions.git',:branch => 'swift4.2'
+
+  pod 'ApplyStyleKit'
+  
+  pod 'Highlighter'
+  pod 'Validator'
+  pod 'InputMask'
+  pod 'PhoneNumberKit'
+  pod 'Siren'
 
   target 'BaseProjectTests' do
     inherit! :search_paths
