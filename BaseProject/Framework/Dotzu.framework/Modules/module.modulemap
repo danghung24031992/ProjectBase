@@ -1,0 +1,11 @@
+framework module Dotzu {
+  umbrella header "Dotzu.h"
+
+  export *
+  module * { export * }
+}
+
+module Dotzu.Swift {
+    header "Dotzu-Swift.h"
+    requires objc
+}

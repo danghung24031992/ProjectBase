@@ -9,6 +9,7 @@
 import UIKit
 import Fabric
 import Crashlytics
+import Dotzu
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,10 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
+        //TODO: do something
+        #if DEBUG
+            Dotzu.sharedManager.enable()
+        #endif
         //config fabric for crashlytics
         configFabric()
-        
         let vc = AuthenticatorRouter.createModule()
         let nav = UINavigationController(rootViewController: vc)
         window = UIWindow.init(frame: UIScreen.main.bounds)

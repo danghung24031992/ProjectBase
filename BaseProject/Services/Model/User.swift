@@ -6,22 +6,26 @@
 //  Copyright © 2018 Dang Hung. All rights reserved.
 //
 
-import UIKit
-import Mapper
+import SwiftyJSON
 
-struct User: Mappable {
+struct User{
     let identifier:Int
     let username:String
     let email:String
     let phone_no:String
     let address:String?
-    
-    init(map:Mapper) throws {
-        try identifier = map.from("id")
-        try username = map.from("user_name")
-        try email = map.from("email")
-        try phone_no = map.from("phone_no")
-        address = map.optionalFrom("address")
+}
+
+extension User{
+    enum PropertyKey: String {
+        case identifier, username, email, phone_no, address
     }
     
+    init(json:JSON) {
+        identifier = json[PropertyKey.identifier.rawValue].intValue
+        username = json[PropertyKey.username.rawValue].stringValue
+        email = json[PropertyKey.email.rawValue].stringValue
+        phone_no = json[PropertyKey.phone_no.rawValue].stringValue
+        address = json[PropertyKey.address.rawValue].stringValue
+    }
 }

@@ -1,0 +1,16 @@
+
+/*
+ Localizable.strings
+ 
+ Created by Dang Hung on 10/29/18.
+ Copyright © 2018 Dang Hung. All rights reserved.
+ */
+
+"Welcome" = "Welcome";
+"Login" = "Login";
+"Sign up a new account" = "Sign up a new account";
+"Back" = "Back";
+"TabBarItem_AccessibilityLabel"="%1$@ - tab - %2$i of %3$i";
+"TabBarItem_Selected_AccessibilityLabel"="Selected - %1$@ - tab - %2$i of %3$i";
+"More_TabBarItem"="More";
+"Hello"="Hello!";

@@ -7,10 +7,11 @@
 //
 
 import Moya
+import  Promises
 
 protocol Networkable {
     associatedtype T: TargetType
     var provider: MoyaProvider<T> { get }
     func login(username:String , password:String , completion:@escaping()->())
-    func register(username:String , email:String , hashedPassword:String)
+    func register(_ username:String , _ email:String , _ hashedPassword:String)->Promise<User>
 }

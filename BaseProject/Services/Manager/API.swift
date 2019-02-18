@@ -10,7 +10,7 @@ import Foundation
 import Moya
 
 enum API{
-    case register(username:String , email:String , hashedPassword:String)
+    case register(_ username:String ,_ email:String ,_ hashedPassword:String)
     case login(username:String , password:String)
 }
 
@@ -29,18 +29,21 @@ extension API:TargetType{
     }
     
     var headers: [String : String]? {
-        return ["Accept": "application/json","Content-type": "application/json"]
+        return ["Accept": "application/json",
+                "Content-type": "application/json"]
     }
     
     
     var environmentBaseURL:String{
-        switch NetworkManager.shared.environment {
+        switch NetworkManager.environment {
         case .product:
             return ""
         case .qa:
             return ""
         case .staging:
-            return "http://www.google.com"
+            return ""
+        case .developer:
+            return ""
         }
     }
     
@@ -66,7 +69,7 @@ extension API:TargetType{
             return .post
         }
     }
-
+    
     
     var parameterEncoding: ParameterEncoding {
         return JSONEncoding.default
@@ -75,5 +78,7 @@ extension API:TargetType{
     var validationType: ValidationType {
         return .successCodes
     }
+    
+    
     
 }
