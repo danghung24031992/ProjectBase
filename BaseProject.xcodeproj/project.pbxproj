@@ -10,6 +10,13 @@
 		04C955F5E962480E32041943 /* Pods_BaseProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E84FA28B96F613383AF094 /* Pods_BaseProjectTests.framework */; };
 		39C87D78EA214337265BC414 /* Pods_BaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFD675143D66AA3371B8EAA /* Pods_BaseProject.framework */; };
 		643991AA2213AAA700AFA83A /* MJMaterialSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643991A92213AAA700AFA83A /* MJMaterialSwitch.swift */; };
+		643ADEC32224398C00A64F0C /* PathService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643ADEC22224398C00A64F0C /* PathService.swift */; };
+		643ADECA22243FC000A64F0C /* Dotzu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643ADEC922243F8E00A64F0C /* Dotzu.framework */; };
+		6445420A2226E33E001AA377 /* NavigationController+CompletionBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644542092226E33D001AA377 /* NavigationController+CompletionBlock.swift */; };
+		644542112226E479001AA377 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644542102226E479001AA377 /* AppState.swift */; };
+		644542132226E497001AA377 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644542122226E497001AA377 /* Actions.swift */; };
+		6445421A2226E868001AA377 /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644542192226E868001AA377 /* Middleware.swift */; };
+		6445421C2226EBFE001AA377 /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6445421B2226EBFD001AA377 /* CounterReducer.swift */; };
 		6454619A22105FEC005ECA1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454619922105FEC005ECA1F /* AppDelegate.swift */; };
 		645461A122105FED005ECA1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645461A022105FED005ECA1F /* Assets.xcassets */; };
 		645461A422105FED005ECA1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645461A222105FED005ECA1F /* LaunchScreen.storyboard */; };
@@ -154,12 +161,18 @@
 		64E5222C22188029008DD962 /* NibOwnerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E5222522188029008DD962 /* NibOwnerLoadable.swift */; };
 		64E522DA22188B44008DD962 /* DLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E522D922188B44008DD962 /* DLog.swift */; };
 		64E522DE2218929F008DD962 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E522DD2218929F008DD962 /* Result.swift */; };
-		64E522E12218FCD5008DD962 /* Dotzu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E522E02218FCD5008DD962 /* Dotzu.framework */; };
 		64E522E32219C73B008DD962 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E522E22219C73B008DD962 /* Error.swift */; };
 		8DFB0E8D8E514FC98CF20589 /* Pods_BaseProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21C5091E2F8D244733FB0E3 /* Pods_BaseProjectUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		643ADEC822243F8E00A64F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 643ADEC422243F8E00A64F0C /* Dotzu.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BBF9F9341ECB8A38003227BE;
+			remoteInfo = Dotzu;
+		};
 		645461AB22105FED005ECA1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6454618E22105FEC005ECA1F /* Project object */;
@@ -187,6 +200,13 @@
 		4B900BF078D5E60B7A94D588 /* Pods-BaseProjectUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectUITests.staging.xcconfig"; path = "Target Support Files/Pods-BaseProjectUITests/Pods-BaseProjectUITests.staging.xcconfig"; sourceTree = "<group>"; };
 		62ACF856F392D22DD7A3E3E2 /* Pods-BaseProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-BaseProjectUITests/Pods-BaseProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		643991A92213AAA700AFA83A /* MJMaterialSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJMaterialSwitch.swift; sourceTree = "<group>"; };
+		643ADEC22224398C00A64F0C /* PathService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathService.swift; sourceTree = "<group>"; };
+		643ADEC422243F8E00A64F0C /* Dotzu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Dotzu.xcodeproj; path = Framework/Dotzu/Dotzu.xcodeproj; sourceTree = SOURCE_ROOT; };
+		644542092226E33D001AA377 /* NavigationController+CompletionBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationController+CompletionBlock.swift"; sourceTree = "<group>"; };
+		644542102226E479001AA377 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		644542122226E497001AA377 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		644542192226E868001AA377 /* Middleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middleware.swift; sourceTree = "<group>"; };
+		6445421B2226EBFD001AA377 /* CounterReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
 		6454619622105FEC005ECA1F /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6454619922105FEC005ECA1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		645461A022105FED005ECA1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -339,7 +359,6 @@
 		64E5222522188029008DD962 /* NibOwnerLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibOwnerLoadable.swift; sourceTree = "<group>"; };
 		64E522D922188B44008DD962 /* DLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLog.swift; sourceTree = "<group>"; };
 		64E522DD2218929F008DD962 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		64E522E02218FCD5008DD962 /* Dotzu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dotzu.framework; path = Framework/Dotzu.framework; sourceTree = "<group>"; };
 		64E522E22219C73B008DD962 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		6506646C90BCFCF423B573D6 /* Pods-BaseProjectTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectTests.staging.xcconfig"; path = "Target Support Files/Pods-BaseProjectTests/Pods-BaseProjectTests.staging.xcconfig"; sourceTree = "<group>"; };
 		6DF2031F2EC44067824DAA30 /* Pods-BaseProjectTests.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectTests.qa.xcconfig"; path = "Target Support Files/Pods-BaseProjectTests/Pods-BaseProjectTests.qa.xcconfig"; sourceTree = "<group>"; };
@@ -357,8 +376,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				643ADECA22243FC000A64F0C /* Dotzu.framework in Frameworks */,
 				39C87D78EA214337265BC414 /* Pods_BaseProject.framework in Frameworks */,
-				64E522E12218FCD5008DD962 /* Dotzu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +430,57 @@
 			path = MJMaterialSwitch;
 			sourceTree = "<group>";
 		};
+		643ADEC522243F8E00A64F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				643ADEC922243F8E00A64F0C /* Dotzu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6445420C2226E427001AA377 /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				644542172226E85E001AA377 /* Middleware */,
+				6445420F2226E44F001AA377 /* State */,
+				6445420E2226E448001AA377 /* Actions */,
+				6445420D2226E440001AA377 /* Reducers */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		6445420D2226E440001AA377 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				6445421B2226EBFD001AA377 /* CounterReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		6445420E2226E448001AA377 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				644542122226E497001AA377 /* Actions.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		6445420F2226E44F001AA377 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				644542102226E479001AA377 /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		644542172226E85E001AA377 /* Middleware */ = {
+			isa = PBXGroup;
+			children = (
+				644542192226E868001AA377 /* Middleware.swift */,
+			);
+			path = Middleware;
+			sourceTree = "<group>";
+		};
 		6454618D22105FEC005ECA1F = {
 			isa = PBXGroup;
 			children = (
@@ -436,7 +506,8 @@
 		6454619822105FEC005ECA1F /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
-				64E522E02218FCD5008DD962 /* Dotzu.framework */,
+				6445420C2226E427001AA377 /* Redux */,
+				643ADEC422243F8E00A64F0C /* Dotzu.xcodeproj */,
 				64E521FE22185F10008DD962 /* Resources */,
 				643991A72213AA8600AFA83A /* Libraries */,
 				645461C7221060A7005ECA1F /* Base */,
@@ -505,6 +576,7 @@
 				645461D42210610F005ECA1F /* UIColor+Hex.swift */,
 				645461D52210610F005ECA1F /* UIButton+Closure.swift */,
 				647A1B5B22112BF60086C5C7 /* debounce+throttle.swift */,
+				644542092226E33D001AA377 /* NavigationController+CompletionBlock.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -528,6 +600,7 @@
 		645461DA2210610F005ECA1F /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				643ADEC22224398C00A64F0C /* PathService.swift */,
 				645461DB2210610F005ECA1F /* Manager */,
 				645461DF2210610F005ECA1F /* Model */,
 			);
@@ -1004,6 +1077,12 @@
 			mainGroup = 6454618D22105FEC005ECA1F;
 			productRefGroup = 6454619722105FEC005ECA1F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 643ADEC522243F8E00A64F0C /* Products */;
+					ProjectRef = 643ADEC422243F8E00A64F0C /* Dotzu.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6454619522105FEC005ECA1F /* BaseProject */,
@@ -1012,6 +1091,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		643ADEC922243F8E00A64F0C /* Dotzu.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Dotzu.framework;
+			remoteRef = 643ADEC822243F8E00A64F0C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6454619422105FEC005ECA1F /* Resources */ = {
@@ -1095,7 +1184,6 @@
 				"${BUILT_PRODUCTS_DIR}/Delegated/Delegated.framework",
 				"${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Dollar/Dollar.framework",
-				"${BUILT_PRODUCTS_DIR}/EZSwiftExtensions/EZSwiftExtensions.framework",
 				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
 				"${BUILT_PRODUCTS_DIR}/Gradients/Gradients.framework",
 				"${BUILT_PRODUCTS_DIR}/HGPlaceholders/HGPlaceholders.framework",
@@ -1118,6 +1206,9 @@
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesSwift/Promises.framework",
 				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
@@ -1155,7 +1246,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Delegated.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dollar.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZSwiftExtensions.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gradients.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HGPlaceholders.framework",
@@ -1178,6 +1268,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Promises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
@@ -1341,6 +1434,7 @@
 				64E521B5221853CE008DD962 /* UITableViewExtensions.swift in Sources */,
 				64E5222922188029008DD962 /* Reusable.swift in Sources */,
 				64E521DE221853CE008DD962 /* ColorExtensions.swift in Sources */,
+				644542132226E497001AA377 /* Actions.swift in Sources */,
 				64E521B2221853CE008DD962 /* CGPointExtensions.swift in Sources */,
 				64E521C8221853CE008DD962 /* UIViewExtensions.swift in Sources */,
 				64E521B4221853CE008DD962 /* UISearchBarExtensions.swift in Sources */,
@@ -1378,6 +1472,7 @@
 				64E521F4221853CE008DD962 /* CollectionExtensions.swift in Sources */,
 				64E521C4221853CE008DD962 /* UISliderExtensions.swift in Sources */,
 				64CE23942214714500C4448B /* PullToRefreshOption.swift in Sources */,
+				6445420A2226E33E001AA377 /* NavigationController+CompletionBlock.swift in Sources */,
 				645462082210610F005ECA1F /* SignInPresenter.swift in Sources */,
 				64E521E3221853CE008DD962 /* ComparableExtensions.swift in Sources */,
 				645462102210610F005ECA1F /* AuthenticatorViewController.swift in Sources */,
@@ -1397,6 +1492,7 @@
 				64E521EA221853CE008DD962 /* DictionaryExtensions.swift in Sources */,
 				64E521DB221853CE008DD962 /* DateExtensions.swift in Sources */,
 				64E521D9221853CE008DD962 /* URLExtensions.swift in Sources */,
+				643ADEC32224398C00A64F0C /* PathService.swift in Sources */,
 				64E521D3221853CE008DD962 /* DispatchQueueExtensions.swift in Sources */,
 				64E521B3221853CE008DD962 /* CGColorExtensions.swift in Sources */,
 				64E521C7221853CE008DD962 /* UINavigationControllerExtensions.swift in Sources */,
@@ -1422,6 +1518,7 @@
 				64E521C2221853CE008DD962 /* UINavigationBarExtensions.swift in Sources */,
 				64E52209221861B1008DD962 /* Assets.swift in Sources */,
 				64E521DF221853CE008DD962 /* SKNodeExtensions.swift in Sources */,
+				644542112226E479001AA377 /* AppState.swift in Sources */,
 				645462072210610F005ECA1F /* RegisterViewController.swift in Sources */,
 				64E5220F22186536008DD962 /* L10n.swift in Sources */,
 				645461FD2210610F005ECA1F /* NavView.swift in Sources */,
@@ -1440,6 +1537,7 @@
 				64CE23AA2214789500C4448B /* ESTabBar.swift in Sources */,
 				64E521CA221853CE008DD962 /* UIWindowExtensions.swift in Sources */,
 				64E521E8221853CE008DD962 /* SequenceExtensions.swift in Sources */,
+				6445421A2226E868001AA377 /* Middleware.swift in Sources */,
 				64E521B8221853CE008DD962 /* UITextFieldExtensions.swift in Sources */,
 				64E521CC221853CE008DD962 /* UISwitchExtensions.swift in Sources */,
 				64E521D5221853CE008DD962 /* UserDefaultsExtensions.swift in Sources */,
@@ -1453,6 +1551,7 @@
 				64E521E6221853CE008DD962 /* BinaryFloatingPointExtensions.swift in Sources */,
 				6454622822106F91005ECA1F /* AccountViewController.swift in Sources */,
 				64E521EF221853CE008DD962 /* CharacterExtensions.swift in Sources */,
+				6445421C2226EBFE001AA377 /* CounterReducer.swift in Sources */,
 				64E521F5221853CE008DD962 /* CLLocationExtensions.swift in Sources */,
 				64E5222A22188029008DD962 /* UITableView+Reusable.swift in Sources */,
 				6454620F2210610F005ECA1F /* AuthenticatorPresenter.swift in Sources */,

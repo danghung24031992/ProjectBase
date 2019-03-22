@@ -11,6 +11,23 @@ import Fabric
 import Crashlytics
 import Dotzu
 
+import ReSwift
+
+// The global application store, which is responsible for managing the appliction state.
+typealias Middleware = LogMiddleware<AppState>
+func logMiddleware(action: Action, context: MiddlewareContext<AppState>) -> Action? {
+    print(action)
+    return action
+}
+
+let mainStore = Store<AppState>(
+    reducer: counterReducer,
+    state: nil,
+    middleware: [
+        
+    ]
+)
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

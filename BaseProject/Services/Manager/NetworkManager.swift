@@ -123,6 +123,31 @@ struct NetworkManager:Networkable {
             }
         }
     }
+    func example(_ param1:String , _ param2:String)-> Promise<Any>{
+        return Promise{fulfill , reject in
+            self.provider.request(.example(param1, param2), completion: {result in
+                switch result {
+                case let .success(response):
+                    do{
+                        let responseFilter = try response.filter(statusCodes: 200...299)
+                        let data = responseFilter.data
+                        let jsonData = try JSON(data: data) // convert network data to json
+                        self.parseJSONData(jsonData: jsonData).then({(jsonObj) in
+                            fulfill(jsonObj)
+                        }).catch({ (error) in
+                            reject(error)
+                        })
+                    }catch let error{
+                        print(error)
+                    }
+                    break
+                case let .failure(error):
+                    self.logError(error)
+                    reject(error)
+                }
+            })
+        }
+    }
 }
 
 

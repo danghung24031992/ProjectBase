@@ -28,11 +28,19 @@ class SignInViewController: UIViewController, SignInViewProtocol {
 //        }
         
         NetworkManager.shared.register("hungnd", "hungnd@gmail.com", "123456")
-            .then{ msg in
-                DLog.verbose(msg)
+            .then{ user in
+                DLog.verbose(user.username)
             }
             .catch { (err) in
                 DLog.verbose(err.localizedDescription)
+        }
+        
+        NetworkManager.shared.example("abc","abc")
+            .then{ result in
+                print(result)
+        }
+            .catch{error in
+                print(error)
         }
     }
     

@@ -10,8 +10,9 @@
 
 import UIKit
 import Localize_Swift
+import ReSwift
 
-class AuthenticatorViewController: BaseViewController, AuthenticatorViewProtocol {
+class AuthenticatorViewController: BaseViewController, AuthenticatorViewProtocol,StoreSubscriber {
 
 	var presenter: AuthenticatorPresenterProtocol?
 
@@ -28,6 +29,12 @@ class AuthenticatorViewController: BaseViewController, AuthenticatorViewProtocol
     override func viewDidLoad() {
         super.viewDidLoad()
         NotificationCenter.default.addObserver(self, selector: #selector(language), name: NSNotification.Name(LCLLanguageChangeNotification), object: nil)
+        mainStore.subscribe(self)
+    }
+    
+    func newState(state: AppState) {
+        // when the state changes, the UI is updated to reflect the current state
+        print("\(mainStore.state.counter)")
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -73,6 +80,7 @@ class AuthenticatorViewController: BaseViewController, AuthenticatorViewProtocol
         Localize.setCurrentLanguage("vi")
         changeColor(true , btnVietNamLng)
         changeColor(false , btnEnglishLng)
+        mainStore.dispatch(CounterActionDecrease());
     }
     
     
@@ -80,6 +88,7 @@ class AuthenticatorViewController: BaseViewController, AuthenticatorViewProtocol
         Localize.resetCurrentLanguageToDefault()
         changeColor(false , btnVietNamLng)
         changeColor(true , btnEnglishLng)
+        mainStore.dispatch(CounterActionIncrease());
     }
     
     func changeColor(_ active : Bool , _ button : UIButton){

@@ -12,6 +12,7 @@ import Moya
 enum API{
     case register(_ username:String ,_ email:String ,_ hashedPassword:String)
     case login(username:String , password:String)
+    case example(_ param1:String ,_ param2:String)
 }
 
 extension API:TargetType{
@@ -29,8 +30,14 @@ extension API:TargetType{
     }
     
     var headers: [String : String]? {
-        return ["Accept": "application/json",
-                "Content-type": "application/json"]
+        switch self {
+        case .example:
+            return ["Accept": "application/json",
+                    "Content-type": "application/json"]
+        default:
+            return ["Accept": "application/json",
+                    "Content-type": "application/json"]
+        }
     }
     
     
@@ -43,7 +50,7 @@ extension API:TargetType{
         case .staging:
             return ""
         case .developer:
-            return ""
+            return "https://www.google.com"
         }
     }
     
@@ -56,6 +63,8 @@ extension API:TargetType{
         switch self {
         case .login(let username , let password):
             return "/login?username=\(username)&password=\(password)"
+        case .example(let param1, let param2):
+            return PathService.example(param1, param2)
         default:
             return ""
         }
@@ -67,6 +76,10 @@ extension API:TargetType{
             return .post
         case .register:
             return .post
+        case .example:
+            return .post
+        default:
+            return .get
         }
     }
     
@@ -76,9 +89,6 @@ extension API:TargetType{
     }
     
     var validationType: ValidationType {
-        return .successCodes
+        return .none
     }
-    
-    
-    
 }

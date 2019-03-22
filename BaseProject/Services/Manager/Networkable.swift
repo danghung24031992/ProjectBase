@@ -14,4 +14,5 @@ protocol Networkable {
     var provider: MoyaProvider<T> { get }
     func login(username:String , password:String , completion:@escaping()->())
     func register(_ username:String , _ email:String , _ hashedPassword:String)->Promise<User>
+    func example(_ param1:String , _ param2:String )->Promise<Any>
 }

@@ -108,6 +108,8 @@ target 'BaseProject' do
   pod 'PromisesSwift', '~> 1.2.6'
 
   pod 'SwiftGen', '~> 6.0'
+  
+  pod 'ReSwift'
 
   target 'BaseProjectTests' do
     inherit! :search_paths
